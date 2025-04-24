@@ -34,7 +34,7 @@ module.exports = function (defaults) {
         scrollErrorIntoView: false,
       },
       defaults: {
-        hint: "dummy/components/permanent-custom-hint",
+        hint: "permanent-custom-hint",
       },
       ...(SCENARIO_CONFIGS[process.env.TEST_SCENARIO] ?? {}),
     },
